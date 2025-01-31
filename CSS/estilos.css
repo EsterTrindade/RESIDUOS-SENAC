@@ -1,0 +1,166 @@
+/*CORES TRABALHADAS: 
+#87B058 - Verde claro
+#748A5B -Verde musgo
+#97DB48 - Verde neon
+#555C4C - Verde acizentado
+#33382D - Verde acizentado escuro
+#2A3320 - Verde escuro */
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+a{
+    text-decoration: none;
+    text-decoration-style: none;
+    text-decoration-line: none;
+}
+
+p{
+    text-align: center;
+}
+
+/* NAV BAR */
+
+/* ESTILO DO HEADER */
+
+header{
+    padding: 40px 4%;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #748A5B;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-entrar button{
+    padding: 10px 50px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #87B058;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+header .btn-entrar button:hover{
+    box-shadow: 0px 0px 8px #748A5B;
+}
+
+/* FIM ESTILO DO HEADER */
+
+/*FIM NAV BAR*/
+
+/* MAIN */
+
+main{
+    height: auto;
+    width: 100%;
+}
+
+.txt-topo-site{
+    margin-top: 90px;
+    color: rgb(7, 7, 7);
+    font-size: 500px;
+    text-align: center;
+}
+
+.txtverde{
+    color: #748A5B;
+    font-size: 7rem;
+    text-align: center;
+}
+
+/* BOTÃO JUNTE-SE */
+
+button{
+    text-align: center;
+    margin-top: 15px;
+    --primary-color: #748A5B;
+    --secondary-color: #fff;
+    --hover-color: #111;
+    --arrow-width: 10px;
+    --arrow-stroke: 2px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 40px;
+    color: var(--secondary-color);
+    padding: 1em 1.8em;
+    background: var(--primary-color);
+    display: flex;
+    transition: 0.2s background;
+    align-items: center;
+    gap: 0.6em;
+    font-size: 15px;
+    cursor: pointer;
+
+  }
+  
+  button .arrow-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button .arrow {
+    margin-top: 1px;
+    width: var(--arrow-width);
+    background: var(--primary-color);
+    height: var(--arrow-stroke);
+    position: relative;
+    transition: 0.2s;
+  }
+  
+  button .arrow::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    border: solid var(--secondary-color);
+    border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+    display: inline-block;
+    top: -3px;
+    right: 3px;
+    transition: 0.2s;
+    padding: 3px;
+    transform: rotate(-45deg);
+  }
+  
+  button:hover {
+    background-color: var(--hover-color);
+  }
+  
+  button:hover .arrow {
+    background: var(--secondary-color);
+  }
+  
+  button:hover .arrow:before {
+    right: 0;
+  }
+
+  /* FIM BOTÃO JUNTE-SE */

@@ -3,10 +3,12 @@
 
     class Pessoa{
         protected string $nome;
+        protected int $email;
 
-        public function __construct(string $nome)
+        public function __construct(string $nome, int $email)
         {
             $this->nome = $nome;
+            $this->email = $email;
         }//Fim do método
 
         public function __get(string $variavel):mixed
@@ -21,7 +23,8 @@
 
         public function imprimir():string
         {
-            return "<br>Nome: ".$this->nome;
+            return "<br>Nome: ".$this->nome.
+                   "<br>E-mail: ".$this->email;
         }//Fim do Método
 
 
