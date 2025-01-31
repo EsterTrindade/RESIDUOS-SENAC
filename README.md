@@ -30,3 +30,5 @@ As categorias são:
 • esmaltes
 • cosméticos
 • cartela de medicamento
+
+#O funcionário podera alterar, excluir e/ou incluir produtos nesta lista acima
