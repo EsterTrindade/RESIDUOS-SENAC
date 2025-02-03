@@ -1,5 +1,5 @@
 <?php
-    namespace PHP\ProjetoEco;
+    namespace PHP\Modelo;
     require_once('Pessoa.php');
     use PHP\projetoEco\Pessoa;
 

@@ -4,9 +4,10 @@
     class Conexao{
         function conectar(){
             try{
-                $conn = mysqli_connect('localhost', 'root', '', '');
+                $conn = mysqli_connect('localhost', 'root', '', 'phpTINT');
 
                 if($conn){
+                    echo "<br>Conectado com sucesso!";
                     return $conn;
                 }
                 echo "<br>Ops!.. Algo deu errado!";

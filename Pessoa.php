@@ -1,5 +1,5 @@
 <?php
-    namespace PHP\ProjetoEco;
+    namespace PHP\Modelo;
 
     class Pessoa{
         protected string $nome;
