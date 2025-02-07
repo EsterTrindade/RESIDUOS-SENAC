@@ -1,7 +1,17 @@
+/*CORES TRABALHADAS: 
+
+#87B058 - Verde claro
+#748A5B -Verde musgo
+#97DB48 - Verde neon
+#555C4C - Verde acizentado
+#33382D - Verde acizentado escuro
+#2A3320 - Verde escuro */
+
+
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(90deg, #090011, #230047);
 }
+
 #principal{
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
@@ -21,16 +31,16 @@ h1{
     font-size: 15px;
     outline: none;
     background-color: #161616;
-    color: #8000ff;
+    color: #87B058;
 }
 #usuario:hover{
-    outline-color: #6300c5;
+    outline-color: #87B058;
     outline-style: solid;
 }
 #usuario:-webkit-autofill {
     box-shadow: #161616;
     -webkit-box-shadow: 0 0 0 1000px #161616 inset;
-    -webkit-text-fill-color: #8000ff;
+    -webkit-text-fill-color: #87B058;
     transition: background-color 5000s ease-in-out 0s;
 }
 #senha{
@@ -39,16 +49,16 @@ h1{
     font-size: 15px;
     outline: none;
     background-color: #161616;
-    color: #8000ff;
+    color: #87B058;
 }
 #senha:hover{
-    outline-color: #6300c5;
+    outline-color: #87B058;
     outline-style: solid;
 }
 #senha:-webkit-autofill {
     box-shadow: #161616;
     -webkit-box-shadow: 0 0 0 1000px #161616 inset;
-    -webkit-text-fill-color: #8000ff;
+    -webkit-text-fill-color: #748A5B;
     transition: background-color 5000s ease-in-out 0s;
 }
 #email{
@@ -57,17 +67,17 @@ h1{
     font-size: 15px;
     outline: none;
     background-color: #161616;
-    color: #8000ff;
+    color: #748A5B;
     width: 95.5%;
 }
 #email:hover{
-    outline-color: #6300c5;
+    outline-color: #748A5B;
     outline-style: solid;
 }
 #email:-webkit-autofill {
     box-shadow: #161616;
     -webkit-box-shadow: 0 0 0 1000px #161616 inset;
-    -webkit-text-fill-color: #8000ff;
+    -webkit-text-fill-color: #748A5B;
     transition: background-color 5000s ease-in-out 0s;
 }
 label{
@@ -77,16 +87,16 @@ label{
 #termos{
     font-size: 14px;
     text-decoration: none;
-    color: #6300c5;
+    color: #748A5B;
 }
 #termos:hover{
-    color:#8000ff;
+    color:#97DB48;
 }
 #termos:visited{
-    color:#ae00ff;
+    color:#97DB48;
 }
 #criar-conta{
-    background-color: #6300c5;
+    background-color: #97DB48;
     border: none;
     padding: 15px;
     width: 50%;
@@ -96,18 +106,18 @@ label{
     margin-left: 25%;
 }
 #criar-conta:hover{
-    background-color: #8000ff;
+    background-color: #97DB48;
     cursor: pointer;
 }
 #jaTenhoConta{
-    color:#6300c5;
+    color:#748A5B;
     font-size: 13px;
     margin-left: 37%;
     text-decoration: none;
 }
 #jaTenhoConta:hover{
-    color:#8000ff;
+    color:#97DB48;
 }
 #jaTenhoConta:visited{
-    color:#ae00ff;
+    color:#97DB48;
 }
